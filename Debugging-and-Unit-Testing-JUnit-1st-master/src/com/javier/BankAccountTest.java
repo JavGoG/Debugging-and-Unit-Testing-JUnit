@@ -12,7 +12,7 @@ public class BankAccountTest {
     public static void beforeClass() {
         System.out.println("This executes before any test cases. Count = " + count++);
     }
-
+    // This method will run before every Test method
     @org.junit.Before
     public void setup() {
         account = new BankAccount("Javier", "Gonzalez-Garcia", 1000.00, BankAccount.CHECKING);
